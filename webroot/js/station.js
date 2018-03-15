@@ -15,7 +15,7 @@ $(function(){
 });
 Station.mapReload = function(page=1,location = Station.nowLoc,listOpen = true){
   Station.nowLoad = true;
-	var url = "/cakephp/station/listCategoryCloseOrder";
+	var url = "/babyMap/station/listCategoryCloseOrder";
 	var category = [];
     var categoryArray = $('.category:checked').map(function() {
       return $(this).val();
