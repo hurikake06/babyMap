@@ -187,7 +187,7 @@
           }
         ?>
       </ul>
-      <div id="nav-gps" onclick ="babymap.nav.openGps()" style="display:none"><img src="/cakephp/img/now_place2.png"></div>
+      <div id="nav-gps" onclick ="babymap.nav.openGps()" style="display:none"><img src="/babyMap/img/now_place2.png"></div>
     </form>
   </div>
 </div>
