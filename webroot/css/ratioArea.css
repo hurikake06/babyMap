@@ -1,0 +1,48 @@
+.ratioArea input[type="checkbox"] {
+  display:none;
+}
+ 
+ /* --- チェックボックス直後のlabel --- */
+.ratioArea input[type="checkbox"] + label{
+  display:inline-block;
+  margin:5px;
+  opacity:0.5;
+  cursor:pointer;
+  transition:.2s;
+  transform-origin:left center;
+  transform:scale(0.9, 0.9);
+  border-radius:2px;
+  padding:0px 5px;
+}
+
+.ratioArea input[type="checkbox"]:checked + label {
+  opacity:1;
+  transform:scale(1, 1);
+  /*background-color:pink;*/
+}
+ 
+.ratioArea input[type="checkbox"] + label:hover {
+  opacity:0.9;
+}
+
+.babycategory img{
+  margin:3px;
+  border-radius:5px;
+}
+
+.baby-icon{
+  width:120px;
+  height:120px;
+}
+form{
+}
+li{
+  display:inline-block;
+  vertical-align:middle;
+}
+img{
+ vertical-align:middle;
+}
+ul{
+  padding:0;
+}

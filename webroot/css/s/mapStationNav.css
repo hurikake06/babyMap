@@ -1,0 +1,302 @@
+.babycategory img{
+  margin:3px;
+  border:1px solid black;
+}
+
+.baby-icon{
+	border-radius:20%;
+	width:90px;
+	height:90px;
+}
+
+.changeScreen{
+}
+
+#mapStationNav{
+	box-sizing:border-box;
+	overflow: visible !important;
+	z-index: 9999;
+	position: fixed;
+	bottom:-100%;
+	width:100%;
+	height: 90%;
+	/*padding-top:10px;*/
+	background-color: white;
+	color: black;
+	border: solid #fa8787 4px;
+	border-bottom:0;
+	border-radius: 20px 20px 0 0;
+}
+
+/*station-rough 250px*/
+#station-details .name,#station-rough .name{
+	font-size:55px;
+	line-height:1em;
+	padding-left:20px;
+	padding-top:20px;
+}
+
+#station-rough .name{
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#station-rough .address{
+	color:#555;
+}
+
+#station-rough .address,#station-details .address{
+	margin-top:20px;
+	font-size:35px;
+	margin-left:20px;
+}
+
+#station-rough .categories{
+	margin-top:20px;
+}
+
+#station-rough .access-icon{
+	display: inline-block;
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 30px;
+    top: -50px;
+    background-color: pink;
+    border-radius: 50%;
+    padding: 30px;
+    border-top: #fa8787 10px solid;
+}
+
+#station-rough .access-icon img{
+	width: 70px;
+    height: 70px;
+    filter: brightness(0) invert(1);
+}
+
+.categories .baby-icon{
+	width:60px;
+	height:60px;
+	margin-left:20px;
+	border:8px double;
+	border-color:red red blue blue;
+}
+
+#station-details .facilities .item .categories .help{
+	font-size:40px
+}
+
+#station-details .facilities .item .categories .baby-icon{
+	margin-left:0px;
+	display:inline-block;
+}
+
+.categories .baby-icon.woman{
+	border-color:red;
+}
+
+#station-details .header{
+    border-radius: 20px 20px 0 0;
+    background: #fa8787;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#directions .header{
+    border-radius: 20px 20px 0 0;
+    background: #fa8787;
+    color: white;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.adp, .adp table {
+    font-size: 40px!important;
+    width: 100%;
+}
+
+.adp-substep .adp-stepicon {
+    width: 32px!important;
+    height: 32px!important;
+    zoom: 2!important;
+}
+.adp-list img, .adp-substep img {
+    zoom: 2!important;
+}
+
+#station-details .facilities{
+	margin-left: 20px;
+}
+
+#station-details .item{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#station-details .item-name,#station-list .item-name,#favorite-list .item-name{
+	font-size:40px;
+}
+
+#station-details .item-name{
+	box-shadow: -3px -3px 3px pink;
+    font-size: 40px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#station-list .item-address,
+#favorite-list .item-address{
+    font-size:35px;
+}
+
+#station-details .item-holiday{
+	font-size:35px;
+	margin-left:10px;
+}
+
+#station-details .item-time{
+	font-size:35px;
+	margin-left:10px;
+}
+
+#station-details .accessButton{
+	height: 40px;
+    font-size: 40px;
+    border: pink solid 2px;
+    width: auto;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 0 0 18px pink;
+}
+
+#station-details .label{
+	background-color: pink;
+    display: inline-block;
+    border: 5px solid pink;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 2px white;
+    margin-right: 0.5em;
+    margin-bottom: 5px;
+}
+
+#station-details .favorite{
+	background-image: url(/cakephp/img/favorite.png);
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed; m
+    margin-top: 5px;
+    margin-right: 15px;
+    right: 0%;
+
+    display: inline-block;
+    font-size: 39px;
+    padding-top: 23px;
+    text-shadow: gray 0 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#station-details .favorite:after{
+	content:"Not";
+	padding-left: 0.25em;
+}
+
+#station-details .favorite.active{
+	background-image: url(/cakephp/img/favorite_on.png);
+    text-shadow: red 0 0 15px;
+}
+
+#station-details .favorite.active:after{
+	content:"Love";
+	padding-left:0;
+}
+
+#station-details .comment{
+    margin-left: 40px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+#station-details .comment .content{
+	margin-left:5px;
+}
+#station-details .comment .content .category-comments{
+	margin-bottom:5px;
+}
+#station-details .comment .content .category-label{
+    font-size: 1.1em;
+    display: inline-block;
+    margin-bottom: 4px;	
+}
+#station-details .comment .content .category-label .category-label-item {
+    background: white;
+    display: inline-block;
+    margin: 5px;
+    padding: 4px 10px;
+    border-radius: 0.5em;
+    border: solid 2px pink;
+}
+#station-details .comment .content .category-comments .comment-group{
+	
+}
+#station-details .comment .content .category-comments .category-comment{
+	text-indent: 1em;
+	display: inline-block;
+}
+
+#station-list .items .item,#favorite-list .items .item,#history-list .items .item{
+	padding: 10px;
+    margin: 7.5px;
+    box-shadow: 0px 0px 15px 0px black;
+}
+
+#station-list .items,#favorite-list .items,#history-list .items,#station-details .facilities{
+	height:100%;
+	overflow-y:scroll;
+}
+
+#station-list .header,#favorite-list .header,#history-list .header{
+	height: 40px;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+#history-list .item{
+    font-size:45px;
+}
+
+#close-tab{
+	padding:10px;
+	font-size:60px;
+	line-height:1;
+}
+
+.html-toast{
+	display:none;
+}
+
+.changeNav{
+	display:none;
+}
+
+#nav-gps{
+    float: right;
+    margin-top: -50px;
+    margin-right: 30px;
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ffffff88;
+}
+#nav-gps img{
+    width:100%;
+    height:100%;
+}

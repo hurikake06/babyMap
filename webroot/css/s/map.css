@@ -1,0 +1,128 @@
+ /* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+  touch-action: none;
+}
+.inputbox{
+  background-color:white;
+}
+.searchbox{
+  position: fixed;
+  z-index: 8;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding:7px;
+  border-radius:5px;
+}
+.searchbar{
+}
+.detailbutton{
+  position: absolute;
+  width:60px;
+  padding:30px;
+  background-color:white;
+  border-radius:5px;
+  margin-right:3px;
+}
+.detailbutton img{
+  width:60px;
+  height:60px;
+}
+.pac-input-style{
+  width:100%;
+  border: 1px solid transparent;
+  border-right: 0;
+  border-radius:5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 120px;
+  outline: none;
+  vertical-align: top;
+  font-size:50px;
+  padding-left:23px;
+}
+.pac-container{
+  background-color:transparent;
+}
+.pac-item{
+  background-color: white;
+  margin-bottom:2px;
+  border-radius:5px;
+  line-height:48px;
+  padding-left:5px;
+  font-size:26px;
+}
+.pac-icon-marker{
+  
+}
+.pac-item-query{
+  padding-left:0;
+  font-size:35px;
+}
+.pac-item{
+  height:55px;
+  padding:auto 0;
+}
+.pac-item:hover{
+  opacity:0.8;
+}
+/*ロゴ消し*/
+/*
+.pac-logo:after{
+  display: none;
+}
+*/
+/*
+.controls {
+  border: 3px solid #FCF2FA;
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}*/
+
+.pac-input-style:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}

@@ -1,0 +1,22 @@
+.travelModeRadio{
+	background:pink;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.travelModeRadio input[type="radio"]{
+	display:none;
+}
+
+.travelModeRadio input[type="radio"]:checked + label {
+    color: white;
+    background: #fa8787;
+}
+
+.travelModeRadio label {
+    padding: 5px 20px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: white solid 5px;
+    margin-left:5px;
+}
